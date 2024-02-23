@@ -23,3 +23,21 @@
     --tran-04: 0.4 sease;
     --tran-05: 0.5 sease;
 }
+
+body {
+    height: 100vh;  
+    background-image: url(file:///Users/thegrljai/Desktop/Bootcamp/The-Code-Barbie/TCB-Portfolio/assets/images/portfolio-background.png);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background: var(--sidebar-color);
+}
+.sidebar .icon img {
+    width: 40px;
+    border-radius: 6px;
+}
