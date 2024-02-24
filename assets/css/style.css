@@ -11,9 +11,10 @@
 :root{
     /* ==== Colors ==== */
     --body-color: #f3eee8;
-    --sidebar-color: #f4adca;
-    --primary-color: #9a607b;
+    --sidebar-color: #fac7dc;
+    --primary-color: #f691bb;
     --primary-color-light: #f3eee8;
+    --arrow-color: #fae3ed;
     --toggle-color: #DDD;
     --text-color: #707070;
 
@@ -30,7 +31,7 @@ body {
 }
 /* ==== Reusable CSS ==== */
 .sidebar .icon{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 .sidebar .icon-image{
@@ -49,7 +50,17 @@ body {
     padding: 10px 14px;
     background: var(--sidebar-color);
 }
+.sidebar li{
+    height: 50px;background: var(--primary-color);
+    margin-top: 10px;   
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
 
+.sidebar header{
+    position: relative;
+}
 .sidebar .icon img {
     width: 40px;
     border-radius: 6px;
@@ -70,4 +81,19 @@ header .icon .header-text{
 }
 .header-text .profession{
     margin-top: -2px;
+}
+.sidebar header .toggle {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--arrow-color);
+    font-size: 22px;
 }
