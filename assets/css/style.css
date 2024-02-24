@@ -28,16 +28,29 @@ body {
     height: 100vh;  
     background-image: url(file:///Users/thegrljai/Desktop/Bootcamp/The-Code-Barbie/TCB-Portfolio/assets/images/portfolio-background.png);
 }
+/* ==== Reusable CSS ==== */
+.sidebar .icon{
+    font-size: 14px;
+    font-weight: 500;
+}
 
+
+/* ==== Sidebar ==== */
 .sidebar{
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 250px;
+    padding: 10px 14px;
     background: var(--sidebar-color);
 }
+
 .sidebar .icon img {
     width: 40px;
     border-radius: 6px;
+}
+.sidebar header .icon{
+    display: flex;
+    align-items: center;
 }
