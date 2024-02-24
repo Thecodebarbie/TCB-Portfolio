@@ -12,7 +12,7 @@
     /* ==== Colors ==== */
     --body-color: #f3eee8;
     --sidebar-color: #fac7dc;
-    --primary-color: #f691bb;
+    --primary-color: #f691b1;
     --primary-color-light: #f3eee8;
     --arrow-color: #fae3ed;
     --toggle-color: #DDD;
@@ -35,7 +35,7 @@ body {
     font-weight: 500;
 }
 .sidebar .icon-image{
-    min-width: 60px;
+    min-width: 45px;
     display: flex;
     align-items: center;
 }
@@ -46,23 +46,32 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    width: 250px;
+    width: 260px;
     padding: 10px 14px;
     background: var(--sidebar-color);
 }
 .sidebar li{
-    height: 50px;background: var(--primary-color);
+    height: 50px;
     margin-top: 10px;   
     list-style: none;
     display: flex;
     align-items: center;
+    padding: 0;
+}
+
+.sidebar li .icon{
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 10px;
 }
 
 .sidebar header{
     position: relative;
 }
 .sidebar .icon img {
-    width: 40px;
+    width: 30px;
     border-radius: 6px;
 }
 
@@ -79,7 +88,7 @@ header .icon .header-text{
 .header-text .name{
     font-weight: 600;
     font-family: "Luckiest Guy", cursive;;
-    color: #b8045c;
+    color: #000000;
 }
 .header-text .profession{
     margin-top: -2px;
@@ -100,12 +109,22 @@ header .icon .header-text{
     color: var(--arrow-color);
     font-size: 22px;
 }
+
+.nav-link a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li a:hover{
+    background: var(--text-color);
+}
 /* this is a recreation of twitter search in css */
 .form {
-    --input-text-color: #49032a;
+    --input-text-color: #ffeaf6;
     --input-bg-color: transparent;
     --focus-input-bg-color: transparent;
-    --text-color: #fac7dc;
+    --text-color: #fdfdfd;
     --active-color: #ee1baf;
     --width-of-input: 200px;
     --inline-padding-of-input: 1.2em;
@@ -120,6 +139,7 @@ header .icon .header-text{
     width: var(--width-of-input);
     position: relative;
     isolation: isolate;
+    top: 10%;
   }
   /* a fancy bg for showing background and border when focus. */
   .fancy-bg {
