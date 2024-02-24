@@ -15,7 +15,7 @@
     --primary-color: #f691b1;
     --primary-color-light: #f3eee8;
     --arrow-color: #fae3ed;
-    --toggle-color: #DDD;
+    --toggle-color: #b0809a;
     --text-color: #b41189;
 
     /* === Transition ===*/
@@ -71,7 +71,7 @@ body {
     position: relative;
 }
 .sidebar .icon img {
-    width: 30px;
+    width: 40px;
     border-radius: 6px;
 }
 
@@ -89,6 +89,7 @@ header .icon .header-text{
     font-weight: 600;
     font-family: "Luckiest Guy", cursive;;
     color: #000000;
+
 }
 .header-text .profession{
     margin-top: -2px;
@@ -114,10 +115,11 @@ header .icon .header-text{
     height: 100%;
     display: flex;
     align-items: center;
+    color: #FBF6E9;
 }
 
 .sidebar li a:hover{
-    background: var(--text-color);
+    background: var(--arrow-color);
 }
 /* this is a recreation of twitter search in css */
 .form {
