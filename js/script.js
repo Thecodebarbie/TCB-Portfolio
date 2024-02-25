@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
         const darkModeToggle = document.getElementById('darkModeToggle');
+        const sidebar = document.querySelector('.sidebar');
         const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+        // Add event listener for toggle button to close the sidebar
+        const toggleButton = document.querySelector('.toggle');
+        toggleButton.addEventListener('click', () => {
+        sidebar.classList.toggle('close');
+        });
 
         if (isDarkMode) {
                 enableDarkMode();

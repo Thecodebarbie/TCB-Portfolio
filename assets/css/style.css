@@ -54,6 +54,35 @@ body {
     padding: 10px 14px;
     background: var(--sidebar-color);
 }
+
+.sidebar.close{
+    width: 78px;
+
+}
+
+.sidebar.close .header-text .name,
+.sidebar.close .header-text .profession {
+    display: none; /* Hide name and profession when sidebar is closed */
+}
+
+.sidebar.close .nav-link {
+  opacity: 0; /* Hide links when sidebar is closed */
+}
+
+.sidebar.close .toggle {
+  transform: rotate(180deg); /* Rotate the toggle icon when sidebar is closed */
+}
+
+.form.clicked {
+  width: 250px; /* Adjust the width of the search bar when clicked */
+}
+
+.form.clicked .search {
+  fill: #f8b1e3; /* Change the color of the search icon when search bar is clicked */
+}
+
+
+
 .sidebar li{
     height: 50px;
     margin-top: 10px;   
@@ -146,6 +175,8 @@ header .icon .header-text{
   top: 10%;
   position: absolute;
 }
+
+
 /* this is a recreation of twitter search in css */
 /* Search Button styles */
 .form {
@@ -293,6 +324,7 @@ header .icon .header-text{
     background: var(--dark);
     color: #ffffff;
   }
+  
   
   /* Dark/Light Button */
   .toggle-switch {
