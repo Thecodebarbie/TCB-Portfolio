@@ -13,5 +13,14 @@ document.addEventListener('DOMContentLoaded', function () {
                   disableDarkMode();
                 }
               });
+
+              darkModeToggle.addEventListener('change', () => {
+                if (darkModeToggle.checked) {
+                  enableDarkMode();
+                } else {
+                  disableDarkMode();
+                }
+              });
             
+ 
         
