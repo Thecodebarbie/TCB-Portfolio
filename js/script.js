@@ -4,23 +4,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (isDarkMode) {
                 enableDarkMode();
-              }
-            
-              darkModeToggle.addEventListener('change', () => {
-                if (darkModeToggle.checked) {
-                  enableDarkMode();
-                } else {
-                  disableDarkMode();
-                }
-              });
+        }
 
-              darkModeToggle.addEventListener('change', () => {
+        darkModeToggle.addEventListener('change', () => {
                 if (darkModeToggle.checked) {
-                  enableDarkMode();
+                        enableDarkMode();
                 } else {
-                  disableDarkMode();
+                        disableDarkMode();
                 }
-              });
+        });
+
+        darkModeToggle.addEventListener('change', () => {
+                if (darkModeToggle.checked) {
+                        enableDarkMode();
+                } else {
+                        disableDarkMode();
+                }
+        });
+        
+        function enableDarkMode() {
+                document.body.classList.add('dark');
+                // Add dark mode styles dynamically
+                const styleElement = document.createElement('style');
+                styleElement.setAttribute('id', 'darkModeStyles');
+                styleElement.innerHTML = `
             
  
         
