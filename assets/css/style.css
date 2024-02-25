@@ -82,7 +82,6 @@ body {
 }
 
 
-
 .sidebar li{
     height: 50px;
     margin-top: 10px;   
@@ -325,7 +324,6 @@ header .icon .header-text{
     color: #ffffff;
   }
   
-  
   /* Dark/Light Button */
   .toggle-switch {
     position: relative;
@@ -340,6 +338,15 @@ header .icon .header-text{
     --link-hover: rgb(24, 94, 82);
   }
   
+  /* Keep the toggle-switch visible */
+.bottom-content .toggle-switch {
+  position: absolute;
+  top: 90%;
+  right: -8px; /* Adjust the left position as needed */
+}
+
+/* Adjust the position or style as needed for the toggle-switch */
+
   .switch-label {
     position: absolute;
     width: 100%;
@@ -392,4 +399,21 @@ header .icon .header-text{
     box-shadow: none;
   }
   
-  
+  /* Initially hide the entire log-out item */
+.logout-container #log-out {
+  display: none;
+}
+
+/* Show the entire log-out item when the sidebar is open */
+.sidebar:not(.close) .logout-container #log-out {
+  display: flex;
+}
+
+/* Move the log-out item to the left */
+.logout-container #log-out {
+  padding: 15px; /* Adjust padding as needed */
+}
+
+.logout-container #log-out .bx-log-out {
+  margin-right: 10px; /* Adjust margin as needed */
+}
