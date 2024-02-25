@@ -17,6 +17,8 @@
     --arrow-color: #fae3ed;
     --toggle-color: #b0809a;
     --text-color: #b41189;
+    --nav-link-color: #FBF6E9;
+    --dark: #28292c;
 
     /* === Transition ===*/
     --tran-03: 0.2s ease;
@@ -146,6 +148,7 @@ header .icon .header-text{
     --focus-input-bg-color: transparent;
     --text-color: #fdfdfd;
     --active-color: #ee1baf;
+    --dark: #28292c;
     --width-of-input: 200px;
     --inline-padding-of-input: 1.2em;
     --gap: 0.9rem;
@@ -209,7 +212,7 @@ header .icon .header-text{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--active-color);
+    background: #f8b1e3;
     opacity: 0;
     visibility: hidden;
   }
@@ -231,12 +234,12 @@ header .icon .header-text{
   }
   /* input background change in focus */
   .input:focus ~ .fancy-bg {
-    border: 1px solid var(--active-color);
+    border: 1px solid var(--dark);
     background: var(--focus-input-bg-color);
   }
   /* search icon color change in focus */
   .input:focus ~ .search {
-    fill: var(--active-color);
+    fill: var(#f8b1e3);
   }
   /* showing close button when typing */
   .input:valid ~ .close-btn {
@@ -253,11 +256,45 @@ header .icon .header-text{
   }
 
   /* Bottom content - Dark/Light Toggle Switch */
+  .bottom-content {
+    margin-top: 45vh;
+    display: flex;
+    align-items: left;
+  }
+
+  .bottom-content li {
+    height: 60px; /* Adjust the height as needed */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+    color: var(--nav-link-color);
+    
+  }
+  
+  .bottom-content li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px; /* Adjust padding for more space to the right */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .bottom-content li a:hover {
+    background: var(--dark);
+    color: #ffffff;
+  }
+  
   .toggle-switch {
     position: relative;
     width: 100px;
     height: 50px;
-    --light: #d8dbe0;
+    transform: scale(0.5);
+    right: 213%;
+    top: 60px;
+    --light: #fac7dc;
     --dark: #28292c;
     --link: rgb(27, 129, 112);
     --link-hover: rgb(24, 94, 82);
