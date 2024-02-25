@@ -29,7 +29,7 @@
 
 body {
     height: 100vh;  
-    background-image: url(file:///Users/thegrljai/Desktop/Bootcamp/The-Code-Barbie/TCB-Portfolio/assets/images/portfolio-background.png);
+    background-image: url(file:///Users/thegrljai/Desktop/Bootcamp/The-Code-Barbie/TCB-Portfolio/assets/images/tcd-back.png);
 }
 /* ==== Reusable CSS ==== */
 .sidebar .icon{
@@ -324,6 +324,7 @@ header .icon .header-text{
     color: #ffffff;
   }
   
+
   /* Dark/Light Button */
   .toggle-switch {
     position: relative;
