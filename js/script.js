@@ -21,13 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
         });
 
-        darkModeToggle.addEventListener('change', () => {
-                if (darkModeToggle.checked) {
-                        enableDarkMode();
-                } else {
-                        disableDarkMode();
-                }
-        });
         function enableDarkMode() {
                 document.body.classList.add('dark');
                 // Add dark mode styles dynamically
