@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     --text-color: #ccc;
                     --nav-link-color: #FBF6E9;
                   }
+
+                  .header-text .name, .header-text .profession {
+                        color: #f8b1e3; /* Customize the color for the dark mode header text */
+                      }
                 `;
     document.head.appendChild(styleElement);
     localStorage.setItem('darkMode', 'enabled');
