@@ -418,3 +418,12 @@ header .icon .header-text{
 .logout-container #log-out .bx-log-out {
   margin-right: 10px; /* Adjust margin as needed */
 }
+
+/* hero banner styles */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh; /* Use min-height instead of height */
+  overflow-x: hidden; /* Hide horizontal overflow to prevent scrolling */
+}
