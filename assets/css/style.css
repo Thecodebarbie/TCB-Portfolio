@@ -427,3 +427,40 @@ header .icon .header-text{
   min-height: 20vh; /* Use min-height instead of height */
   overflow-x: hidden; /* Hide horizontal overflow to prevent scrolling */
 }
+
+/*main styles */
+.row {
+  display: flex;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+}
+
+.column-right {
+  border-right: 2px solid black;
+  right: 60px;
+}
+
+
+/* IDs */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  overflow-x: hidden;
+  padding-left: 270px;
+}
+
+#about-img,
+#photo-pin {
+  max-width: 100%;
+  height: auto;
+}
+
+#photo- {
+  max-width: 600px;
+  margin: 20px 0;
+}
