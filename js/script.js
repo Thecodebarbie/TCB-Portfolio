@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
         });
 
+
         function enableDarkMode() {
                 document.body.classList.add('dark');
                 // Add dark mode styles dynamically

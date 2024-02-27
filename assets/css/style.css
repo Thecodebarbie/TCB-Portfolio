@@ -17,7 +17,7 @@
     --arrow-color: #fae3ed;
     --toggle-color: #b0809a;
     --text-color: #b41189;
-    --nav-link-color: #FBF6E9;
+    --nav-link-color: #28292c;
     --dark: #28292c;
 
     /* === Transition ===*/
@@ -166,7 +166,7 @@ header .icon .header-text{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #28292c;
+    color: var(--nav-link-color);
     transition: var(--tran-04);
 }
 
@@ -439,6 +439,10 @@ header .icon .header-text{
   display: flex;
 }
 
+.about-img{
+  margin-top: 45px;
+}
+
 .column-left{
   flex: 1 0 20%;
   text-align: end;
@@ -448,9 +452,15 @@ header .icon .header-text{
   flex: 1 0 70%;
   padding-left: 1%;
 }
-
+.photo-pin{
+  text-align: center;
+}
+.column-right p{
+  text-align: center;
+  font-size: 20px;
+}
 .footer {
-  background-color: #121111;
+  background-color: #c5bfbb;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -458,101 +468,51 @@ header .icon .header-text{
   padding: 20px;
 }
 
-.card {
-  display: flex;
-  height: 70px;
-  width: 375px;
-  background: none;
-  list-style: none;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.card .social-link1,
-.card .social-link2,
-.card .social-link3,
-.card .social-link4,
-.card .social-link5 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 25%;
-  color: whitesmoke;
-  font-size: 24px;
-  text-decoration: none;
-  transition: 0.25s;
-  border-radius: 50px;
-}
-
-.card .social-link1 svg,
-.card .social-link2 svg,
-.card .social-link3 svg,
-.card .social-link4 svg,
-.card .social-link5 svg {
-  width: 55%;
+.parent {
+  width: 100%;
   height: 100%;
-  font-size: 24px;
-  font-weight: 700;
-  opacity: 1;
-  transition: opacity 0.25s;
-  z-index: 2;
-  padding: 0.25rem;
-  cursor: pointer;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card .social-link1:hover {
-  background: #f09433;
-  background: linear-gradient(45deg, #f09433 0%, #bc1888 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-  animation: bounce_613 0.4s linear;
+.child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+  margin: 0 5px;
 }
 
-.card .social-link2:hover {
-  background-color: #242c34;
-  animation: bounce_613 0.4s linear;
+.child:hover {
+  background-color: white;
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+  transform: perspective(180px) rotateX(60deg) translateY(2px);
+  box-shadow: 0px 10px 10px rgb(1, 49, 182);
 }
-
-.card .social-link3:hover {
-  background-color: #5865f2;
-  animation: bounce_613 0.4s linear;
-}
-
-.card .social-link4:hover {
-  background-color: #0a66c2;
-  animation: bounce_613 0.4s linear;
-}
-
-.card .social-link5:hover {
-  background-color: #ff8000;
-  animation: bounce_613 0.4s linear;
-}
-
-@keyframes bounce_613 {
-  40% {
-    transform: scale(1.4);
-  }
-
-  60% {
-    transform: scale(0.8);
-  }
-
-  80% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
 
 #contact ul{
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+#contact .column-right a {
+  color: var(--nav-link-color); /* Change to your desired link color */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+#contact .column-right a:hover {
+  color: var(--sidebar-color); /* Change to your desired hover color */
 }
 
 #big-img{
@@ -566,9 +526,37 @@ header .icon .header-text{
 
 #small-img{
   display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
 #small-img img{
   margin: 15px;
+  display: block; /* Ensure images are block elements */
+  width: 100%; /* Make images fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+#small-img::before,
+#small-img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--arrow-color); /* Add background color for hover effect */
+  opacity: 0; /* Start with zero opacity */
+  transition: opacity 2.5s;
+}
+#small-img:hover::before {
+  opacity: 1; /* On hover, increase opacity to 1 */
+}
+#small-img:hover img {
+  transform: scale(1.1);
+  transition: transform 0.99s;
+}
+
+#small-img:hover {
+  background-color: var(--arrow-color); /* Add background color on hover */
 }
 
