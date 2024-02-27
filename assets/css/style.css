@@ -647,4 +647,26 @@ main {
   width: 100%;
   height: auto;
 }
+/* About Section Styles */
+
+#about {
+  width: 100%;
+}
+
+.column-left,
+.column-right {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Work Section Styles */
+
+#work {
+  width: 100%;
+}
 
