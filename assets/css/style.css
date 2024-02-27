@@ -614,3 +614,17 @@ button {
   .nav-link {
     margin-bottom: 15px;
   }
+
+  /* Search button */
+  .form {
+    margin-bottom: 15px;
+  }
+
+  /* Bottom Content Styles */
+  .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+}
