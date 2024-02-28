@@ -61,7 +61,7 @@ The GitHub repository for this project is available [here](https://github.com/Th
 
 Experience the versatility of this website with a seamlessly integrated dark/light mode switch, strategically placed within the navigation bar. The menu bar links offer a sophisticated hover effect, providing a smooth transition for an aesthetically pleasing user interaction. Navigating through the sections is made intuitive, with the navigation links directing you precisely to your desired content.
 
-The contact section introduces a subtle hover effect, adding a refined touch to the user experience. In the footer, engage with the interactive social links that gracefully guide you to their respective websites or webpages upon a click.
+The design is thoughtfully crafted to be mobile-responsive, ensuring a seamless and engaging experience across various devices. The contact section introduces a subtle hover effect, adding a refined touch to the user experience. In the footer, engage with the interactive social links that gracefully guide you to their respective websites or webpages upon a click.
 
 ## How to Deploy Locally
 
