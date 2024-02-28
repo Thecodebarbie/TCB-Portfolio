@@ -51,10 +51,11 @@ Appreciation goes to these platforms for their open-source files, enriching the 
 
 ## Deployment
 
-The application is deployed using [Github Pages](https://github.com/Thecodebarbie/CHL2-Portfolio) 
+The application is deployed using [Github Pages](https://thecodebarbie.github.io/TCB-Portfolio/) 
 
-The GitHub repository for this project is available [here](https://github.com/Thecodebarbie).
+The GitHub repository for this project is available [here](https://github.com/Thecodebarbie/TCB-Portfolio).
 
+** Be sure to deploy the site using Chrome, Brave Mozilla. Safari will not safely deploy this application. **
 
 ## Features
 
