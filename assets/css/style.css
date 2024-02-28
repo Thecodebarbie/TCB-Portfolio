@@ -676,10 +676,17 @@ main {
 #contact {
   width: 100%;
 }
-#contact img {
+#contact img,
+#work img {
   width: 80%; /* Adjust the width as needed */
   max-width: none; /* Ensure it can exceed the maximum width */
 }
+
+#small-img img {
+  width: 50%; /* Adjust the width as needed for two images in one row */
+  max-width: none; /* Ensure it can exceed the maximum width */
+}
+
 /* Footer Styles */
 
 .footer {
