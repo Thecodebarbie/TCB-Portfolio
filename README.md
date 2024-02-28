@@ -40,8 +40,22 @@ Thank you for exploring my portfolio—I hope it gives you valuable insights int
 
 ## Deployment
 
-## Deployment
-
 The application is deployed using [Github Pages](https://github.com/Thecodebarbie/CHL2-Portfolio) 
 
 The GitHub repository for this project is available [here](https://github.com/Thecodebarbie).
+
+## How to Deploy Locally
+
+If you want to deploy this portfolio locally, follow these steps:
+
+Clone the repository to your local machine:
+
+```bash
+1. git clone https://github.com/your-username/your-repository-name.git
+
+2. navigate to project directory; cd your-repository-name
+
+3. open the `index.html` file in your preferred web browser. Now you should be able to view the portfolio locally on your computer. Replace 
+
+** `your-username` and `your-repository-name with your GitHun username and the name of your repository`**
+
