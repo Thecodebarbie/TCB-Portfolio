@@ -1,5 +1,7 @@
-# TheCodeBarbie Portfolio
+# TheCodeBarbie Portfolio 
+![Static Badge](https://img.shields.io/badge/theCODEbarbie-%23FBF6E9?style=for-the-badge&logo=Spotlight&labelColor=%23F79AD3)
 
+## Description
 Welcome to my portfolio! This project is a reflection of my journey as a developer, showcasing my skills, projects, and design philosophy. Crafted with the goal of making a lasting impression on potential employers, this portfolio is more than just a static display—it's a dynamic representation of my evolving abilities.
 
 ## Table of Contents
