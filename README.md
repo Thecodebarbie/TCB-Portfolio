@@ -38,3 +38,10 @@ Thank you for exploring my portfolio—I hope it gives you valuable insights int
 ![Alt text](./assets/images/portfolio-responsive.png)
 ![Alt text](./assets/images/port-gif.gif)
 
+## Deployment
+
+## Deployment
+
+The application is deployed using [Github Pages](https://github.com/Thecodebarbie/CHL2-Portfolio) 
+
+The GitHub repository for this project is available [here](https://github.com/Thecodebarbie).

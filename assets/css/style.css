@@ -29,7 +29,7 @@
 
 body {
     height: 100vh;  
-    background-image: url(file:///Users/thegrljai/Desktop/Bootcamp/The-Code-Barbie/TCB-Portfolio/assets/images/tcd-back.png);
+    background-image: url(./assets/images/tcd-back.png);
 }
 /* ==== Reusable CSS ==== */
 .sidebar .icon{
