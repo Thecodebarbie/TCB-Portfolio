@@ -565,7 +565,7 @@ button {
 #small-img img{
   margin: 15px;
   display: block; /* Ensure images are block elements */
-  width: 100%; /* Make images fill the container */
+  width: 45%; /* Make images fill the container */
   height: auto; /* Maintain aspect ratio */
 }
 #small-img::before,
@@ -649,9 +649,7 @@ main {
 }
 /* About Section Styles */
 
-#about {
-  width: 100%;
-}
+
 
 .column-left,
 .column-right {
@@ -660,13 +658,47 @@ main {
 }
 
 .about-img {
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
+#about {
+  width: 100%;
+}
 /* Work Section Styles */
 
 #work {
   width: 100%;
+}
+
+/* Contact Section Styles */
+
+#contact {
+  width: 100%;
+}
+#contact img {
+  width: 80%; /* Adjust the width as needed */
+  max-width: none; /* Ensure it can exceed the maximum width */
+}
+/* Footer Styles */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c5bfbb;
+  color: #fff;
+  padding: 20px;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
