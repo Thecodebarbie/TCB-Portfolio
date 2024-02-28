@@ -33,5 +33,8 @@ Thank you for exploring my portfolio—I hope it gives you valuable insights int
 
 ## Screenshots
 
+![Alt text](./assets/images/portfolio-desktop.png)
 
+![Alt text](./assets/images/portfolio-responsive.png)
+![Alt text](./assets/images/port-gif.gif)
 
