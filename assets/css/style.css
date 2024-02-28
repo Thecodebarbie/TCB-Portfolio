@@ -29,7 +29,7 @@
 
 body {
     height: 100vh;  
-    background-image: url(./assets/images/tcd-back.png);
+    background-image: url(../images/tcd-back.png);
 }
 /* ==== Reusable CSS ==== */
 .sidebar .icon{

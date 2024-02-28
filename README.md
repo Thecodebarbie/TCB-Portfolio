@@ -31,12 +31,21 @@ This portfolio addresses the challenge employers face when evaluating a candidat
 
 Thank you for exploring my portfolio—I hope it gives you valuable insights into my journey and capabilities as a developer. Feel free to reach out for further discussions or collaborations!
 
-## Screenshots
+## Usage
 
 ![Alt text](./assets/images/portfolio-desktop.png)
 
 ![Alt text](./assets/images/portfolio-responsive.png)
 ![Alt text](./assets/images/port-gif.gif)
+
+## Credits
+
+This project acknowledges the following open-source contributions:
+
+Fonts provided by Google Fonts
+Universe images sourced from universe.io
+Utilized components and styles from MDBootstrap
+Appreciation goes to these platforms for their open-source files, enriching the visual and functional aspects of this project.
 
 ## Deployment
 
@@ -44,18 +53,25 @@ The application is deployed using [Github Pages](https://github.com/Thecodebarbi
 
 The GitHub repository for this project is available [here](https://github.com/Thecodebarbie).
 
+
+## Features
+
+Experience the versatility of this website with a seamlessly integrated dark/light mode switch, strategically placed within the navigation bar. The menu bar links offer a sophisticated hover effect, providing a smooth transition for an aesthetically pleasing user interaction. Navigating through the sections is made intuitive, with the navigation links directing you precisely to your desired content.
+
+The contact section introduces a subtle hover effect, adding a refined touch to the user experience. In the footer, engage with the interactive social links that gracefully guide you to their respective websites or webpages upon a click.
+
 ## How to Deploy Locally
 
 If you want to deploy this portfolio locally, follow these steps:
 
 Clone the repository to your local machine:
 
-```bash
 1. git clone https://github.com/your-username/your-repository-name.git
 
 2. navigate to project directory; cd your-repository-name
 
-3. open the `index.html` file in your preferred web browser. Now you should be able to view the portfolio locally on your computer. Replace 
+3. open the `index.html` file in your preferred web browser. Now you should be able to view the portfolio locally on your computer. Replace `your-username` and `your-repository-name with your GitHun username and the name of your repository`
 
-** `your-username` and `your-repository-name with your GitHun username and the name of your repository`**
+## License
 
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license. Refer to the LICENSE file for more details.
